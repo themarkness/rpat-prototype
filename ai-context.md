@@ -1016,6 +1016,21 @@ router.post("/v2/contact-preference", function (req, res) {
 
 ---
 
+## Local documentation (GOV.UK One Login)
+
+This project contains a local copy of the [GOV.UK One Login Technical Documentation](https://github.com/govuk-one-login/tech-docs) in:
+`docs/govuk-one-login-tech-docs/source/`
+
+Key files and directories:
+- `source/index.html.md.erb`: Overview
+- `source/integrate-with-integration-environment/`: Integration guides
+- `source/test-your-integration/`: Testing strategy
+- `source/configure-for-production/`: Production configuration
+
+Use `grep_search` or `find_by_name` within this directory to find specific guidance without needing external web searches.
+
+---
+
 ## Suggestions and updates
 
 Have ideas for improving this file? Found something missing or incorrect?
